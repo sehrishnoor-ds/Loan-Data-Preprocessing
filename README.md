@@ -15,26 +15,29 @@ This project focuses solely on the critical initial steps of the data science li
 Raw data from real-world systems is often messy, inconsistent, and incomplete. This repository documents the entire process of cleaning and preparing a loan dataset for machine learning. The project demonstrates key data wrangling techniques, including handling missing values, standardizing formats, and encoding categorical features, without implementing a predictive model itself.
 
 ## Dataset Description
+
 The dataset contains several columns related to loan applications. A core part of the process was defining how to handle and interpret these features.
 
 ## Methodology and Preprocessing Steps
+
 The data preprocessing pipeline was executed using Python and documented in the main notebook (loan_data_preprocessing.ipynb). The key steps involved were:
-Importing libraries
-Importing datasets
-Missing Values detection and treatment
-Outliers detection and treatment
-Transformation of Variables
-Scaling the Numerical Variables
-Encoding the Categorical Variables
-Creation of New Variables
-Splitting the data into training and test set
+- Importing libraries
+- Importing datasets
+- Missing Values detection and treatment
+- Outliers detection and treatment
+- Transformation of Variables
+- Scaling Numerical Variables
+- Encoding Categorical Variables
+- Creation of New Variables
+- Splitting the data into training and test set
 
 ## Technical Stack
 
-Language: Python
-Libraries: pandas (for data manipulation), numpy (for numerical operations), scikit-learn (for encoding/scaling utilities), matplotlib/seaborn (for visualizations).
+- Language: Python
+- Libraries: pandas (for data manipulation), numpy (for numerical operations), scikit-learn (for encoding/scaling utilities), matplotlib/seaborn (for visualizations).
 
 ## Future Work
+
 This project lays the groundwork for further analysis:
 - Applying various machine learning classification models (Logistic Regression, Random Forest, etc.) to predict the repaid target variable.
 - Hyperparameter tuning and model evaluation using metrics like ROC, Precision, and Recall.
