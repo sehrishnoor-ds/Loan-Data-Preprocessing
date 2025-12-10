@@ -7,9 +7,7 @@ This project focuses solely on the critical initial steps of the data science li
 - [Project Overview](#project-overview)
 - [Dataset Description](#dataset-description)
 - [Methodology and Preprocessing Steps](#methodology-and-preprocessing-steps)
-- [Target Variable Definition](#target-variable-definition)
 - [Technical Stack](#technical-stack)
-- [Getting Started](#getting-started)
 - [Future Work](#future-work)
 
 ## Project Overview
@@ -31,8 +29,15 @@ Encoding the Categorical Variables
 Creation of New Variables
 Splitting the data into training and test set
 
+## Technical Stack
 
+Language: Python
+Libraries: pandas (for data manipulation), numpy (for numerical operations), scikit-learn (for encoding/scaling utilities), matplotlib/seaborn (for visualizations).
 
+## Future Work
+This project lays the groundwork for further analysis:
+- Applying various machine learning classification models (Logistic Regression, Random Forest, etc.) to predict the repaid target variable.
+- Hyperparameter tuning and model evaluation using metrics like ROC, Precision, and Recall.
 
 
 
